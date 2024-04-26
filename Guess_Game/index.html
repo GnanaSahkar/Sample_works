@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+  <body>
+    <div class="container" id="random">
+        <h1>Guess the Number</h1>
+        <p>Guess an random number from 1 to 15</p>
+       <input type="number" id="guess" min="1" max="15">
+        <br>
+        <br>
+        <button onclick="CheckGuess()" >Submit</button>
+        <p id="result"></p>
+        <p>Attempts remaining: <span id="attempts">4</span></p>
+    </div>
+   
+</body>
+</html>

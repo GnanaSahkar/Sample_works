@@ -1,0 +1,37 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width:50%;
+    margin-top: 50px;
+    margin-left:300px;
+    border-radius: 20px;
+    background-color: aqua;
+    
+}
+
+input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(41, 10, 96);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+body {
+    background-image: url(ques.jpg);
+    background-size: cover;
+}
+
